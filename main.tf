@@ -15,7 +15,7 @@ resource "aws_subnet" "FirstSubnet" {
   availability_zone = "us-east-1a"
   map_public_ip_on_launch = true
   tags = {
-    Name = "FirstSubnet"
+    Name = "rajeshmodiifed"
   }
 }
 
@@ -93,7 +93,7 @@ resource "aws_lb_target_group" "FirstTargetGroup" {
   protocol = "HTTP"
   vpc_id = aws_vpc.FirstVPC.id
   tags = {
-    Name = "FirstTargetGroup"
+    Name = "rajeshmoidified"
   }
   health_check {
     path = "/"
