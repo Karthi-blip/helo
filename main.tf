@@ -15,7 +15,7 @@ resource "aws_subnet" "FirstSubnet" {
   availability_zone = "us-east-1a"
   map_public_ip_on_launch = true
   tags = {
-    Name = "FirstSubnet"
+    Name = "karthik-FirstSubnet"
   }
 }
 
